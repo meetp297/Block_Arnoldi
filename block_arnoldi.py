@@ -15,6 +15,7 @@ output:
       Q:matrix(N*m_1p) orthogonal basis of krylov subspace
       H:matrix(m_1p*m_1p) coefficient matrix 
       where p=rank of q_0
+'''
 
     q_0,r=linalg.qr(B,mode='economic')
     q=q_0
